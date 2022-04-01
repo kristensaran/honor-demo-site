@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="Honor is a wellness app that enables users to make healthier lifestyle choices." />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="queries.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=League+Gothic&family=Poppins:wght@400;700&family=Rubik:wght@300;400;700&family=Syncopate:wght@400;700&family=Voltaire&display=swap" rel="stylesheet">
+    <link rel="icon" href="favicon.png" />
+
+    <script defer src="script.js"></script>
+    <script defer src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"
+    ></script>
+    <title>Honor &mdash; Superfood for your brain</title>
+  </head>
+  <body>
+    <header class="header">
+      
+      <h1 class="nav-logo"><a href="#">Honor</a></h1>
+      <nav class="main-nav">
+      
+        <ul class="main-nav-list">
+          <li><a class="main-nav-link" href="#featured">Our Mission</a></li>
+          <li><a class="main-nav-link" href="#story">Our Philosophy</a></li>
+          <li><a class="main-nav-link" href="#testimonials">Testimonials</a></li>
+          <li><a class="main-nav-link" href="#pricing">Pricing</a></li>
+          <li><a class="main-nav-link nav-cta" href="#cta">Get Started</a></li>
+        </ul>
+        
+         
+        
+      
+    </nav>
+          <button class="button-mobile-nav">
+          <ion-icon class="icon-mobile-nav" name="menu"></ion-icon>
+          <ion-icon class="icon-mobile-nav" name="close"></ion-icon>
+        </button>
+    </header>
+    <main>
+      <section class="section-hero">
+        <div class="hero-text-box">
+          <h1 class="heading-primary">Free your mind</h1>
+        </div>
+      </section>
+
+      <section class="featured" id="featured">
+        <div class="container">
+          <h2 class="heading-featured-in">As seen in</h2>
+          <div class="logos">
+            <img class= "logo" src="business-insider.png" alt="Business Insider logo" />
+            <img class="logo" src="forbes.png" alt="Forbes logo" />
+            <img class="logo" src="the-new-york-times.png" alt="The New York Times logo" />
+            <img
+              src="the-wall-street-journal.png"
+              alt="The Wall Street Journal logo"
+              class="logo"
+            />
+            <img src="usa-today.png" alt="USA Today logo" 
+            class="logo"/>
+          </div>
+        </div>
+      </section>
+      <section class="section-mission" id="mission">
+        <div class="container">
+          <h1 class="heading-mission">We are not a weight-loss service</h1>
+          <p class="mission-text">
+            How often have you been promised fantastic and rapid gains, only to be disappointed? We aren't interested in transforming your body - our approach to wellness begins with teaching you how to approach nutrition. The goal is not to change your appearance (though many of our users do report weight loss) but instead to endow you with the tools to build a lifestyle centered on holistic wellness. 
+          </p>
+        </div>
+      </section>
+      <section id="story">
+      <div class="container grid grid--2-cols grid--center--v story-mobile">
+        <div class="story-img-box ">
+          <img
+          src="Brain2.jpg"
+          class="story-img"
+          alt="Illustration of a brain with large eyes looking quizzically down at the block of text on webpage"
+          />
+        </div>
+        <div class="story-text-box story-mobile">
+          <h3 class="heading-tertiary">You are what you eat</h3>
+          <p class="story-description">
+            A full 20% of the calories you consume are devoted specifically to powering your brain (more than any other organ in your body). Moreover, 95% of the seritonin in your body is produced in your gut microbiome. The link between mood disorders and poor nutrition is a rapidly growing field of study. Though medical researchers are only beginning to research this link, we find the relationship between nutrition and emotional wellness to be evident. 
+          </p>
+        </div>
+        <div class="story-text-box story-adding story-mobile">
+          <h3 class="heading-tertiary">Adding, not subtracting</h3>
+          <p class="story-description">
+            Many people have tried replacing cheesesteaks with salads, only to fail in their wellness journey because of not feeling full enough. The fact is, most people don't introduce veggies into their diet in the quantities or varieties needed to feel any real difference. Instead of delivering a shock to your system by replacing your regular diet, we instead add to it with easily digestible, highly nutritious blended foods and juices. As your body adjusts, many users report naturally finding nutritious foods more appealling than processed ones, initiating a virtuous cycle that is the basis for a healthier relationship with food. 
+          </p>
+        </div>
+        <div class="story-img-box story-mobile">
+          <img
+          src="brain3.jpg"
+          class="story-img"
+          alt="Illustration of a brain with large eyes, clearly addled, falling down the page"
+          />
+        </div>
+        <div class="story-img-box story-mobile">
+          <img
+          src="smoothie_1.jpg"
+          class="story-img"
+          alt="Illustration of a cheerful green smoothie in a glass with a straw and a cheerful stalk of celery"
+          />
+        </div>
+        <div class="story-text-box story-mobile">
+          <h3 class="heading-tertiary">Easy does it</h3>
+          <p class="story-description">
+            Highly processed or genetically altered foods rife with artificial dyes often trigger inflammation. If your body doesn't recognize a food particle, it can activate your immune system and trigger an inflammatory response. We encourage our users to consume all-natural, freshly blended smoothies and juices, as they are easier to digest. No time? No problem. We have a network of local vendors who can deliver a freshly made juice to your door with all the nutrients you need to start your day right. 
+          </p>
+        </div>
+      </div>
+    </section>
+      
+      <section class="testimonials" id="testimonials">
+        <div class="slider">
+          <div class="slide">
+            <div class="testimonial">
+              <h4 class="testimonial__header">It changed my life!</h4>
+              <blockquote class="testimonial__text">
+                I have to admit - I was skeptical at first. But so many of my friends recommended it, I finally caved in and gave it a try. The improvement was almost immediate - I was stunned! I instantly felt more energy, more focus, more clarity. I can only say, wow, wow, wow! 
+              </blockquote>
+              <address class="testimonial__author">
+                <h5 class="testimonial__name">Suzy Smith</h5>
+                <p class="testimonial__location">Brooklyn, NY</p>
+              </address>
+            </div>
+          </div>
+
+          <div class="slide">
+            <div class="testimonial">
+              <h4 class="testimonial__header">What a difference!</h4>
+              <blockquote class="testimonial__text">
+                Eating healthy never really made sense to me - I'd always tried eating more greens and salads and never really saw an improvement. The regular meetings with Honor's nutritionists and meal plans just made everything click for me - this was a lifesaver.  
+              </blockquote>
+              <address class="testimonial__author">
+                <h5 class="testimonial__name">Joe Carpenter</h5>
+                <p class="testimonial__location">Hoboken, NJ</p>
+              </address>
+            </div>
+          </div>
+
+          <div class="slide">
+            <div class="testimonial">
+              <h4 class="testimonial__header">Amazing!</h4>
+              <blockquote class="testimonial__text">
+                It was such an easy change to make. I always thought that making healthier choices would require a total overhaul of my lifestyle. Not so! They made it clear the simple steps I needed to take and guided me on the journey. I was astonished by the results. I'm never going back to a life without Honor! 
+              </blockquote>
+              <address class="testimonial__author">
+                <h5 class="testimonial__name">Chloe Dee</h5>
+                <p class="testimonial__location">San Francisco, CA</p>
+              </address>
+            </div>
+          </div>
+          <button class="slider__btn slider__btn--left">&larr;</button>
+          <button class="slider__btn slider__btn--right">&rarr;</button>
+          <div class="dots"></div>
+        </div>
+      </section>
+      <section class="section-pricing pricing-mobile" id="pricing">
+        <div class="container">
+          <div class="pricing-subheading">Pricing Plans</div>
+        </div>
+        <div class="container grid grid--2-cols pricing-grid">
+          <div class="pricing-plan pricing-plan--starter ">
+            <header class="plan-header">
+              <p class="plan-name">Basic</p>
+              <p class="plan-price"><span>$</span>250</p>
+              <p class="plan-text">per month.</p>
+            </header>
+            <ul class="list">
+              <li class="list-item">
+                <ion-icon name="checkmark"></ion-icon>
+                <span>
+                  Monthly consultation with a member of our team of registered
+                  dieticians</span>
+                
+              </li>
+              <li class="list-item">
+                <ion-icon name="checkmark"></ion-icon>
+                <span
+                  >Access to our app offering live guided meditation practice 2x
+                  a day</span
+                >
+              </li>
+              <li class="list-item">
+                <ion-icon name="checkmark"></ion-icon>
+                <span
+                  >Access to our database of nutrient-rich smoothie and meal
+                  recipes via our app</span
+                >
+              </li>
+              <li class="list-item">
+                <ion-icon name="checkmark"></ion-icon>
+                <span
+                  >Access to live events and seminars on proper nutrition and
+                  living a fully integrated lifestyle</span
+                >
+              </li>
+            </ul>
+            <div class="plan-sign-up">
+              <a href="#cta" class="btn btn--full">Improve your mood</a>
+            </div>
+          </div>
+
+          <div class="pricing-plan pricing-plan--complete">
+            <header class="plan-header">
+              <p class="plan-name">Unlimited</p>
+              <p class="plan-price">
+                <span>$</span>399
+              </p>
+              <p class="plan-text">per month.</p>
+            </header>
+            <div class="pricing-unlimited-subheading">Includes all of the benefits of our Basic plan, plus:</div>
+            <ul class="list">
+              <li class="list-item">
+                <ion-icon name="checkmark"></ion-icon>
+                <span>Your own dedicated nutritionist</span>
+              </li>
+              <li class="list-item">
+                <ion-icon name="checkmark"></ion-icon>
+                <span>Personalized weekly meal plans</span>
+              </li>
+              <li class="list-item">
+                <ion-icon name="checkmark"></ion-icon>
+                <span>Daily fresh smoothie delivery from one of our local partners</span>
+              </li>
+              <li class="list-item">
+                <ion-icon name="checkmark"></ion-icon>
+                <span>Priority access to registration for guided meditation retreats</span>
+              </li>
+
+            </ul>
+            <div class="plan-sign-up">
+              <a href="#cta" class="btn btn--full">Improve your mood</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="container grid">
+          <aside class="plan-details">
+            Prices include all available taxes. Plans can be cancelled at any time with no cancellation fees.
+          </aside>
+        </div>
+      </section>
+
+      <section class="section-cta" id="cta">
+        <div class="container">
+          <div class="cta">
+            <div class="cta-text-box">
+              <h2 class="heading-secondary">Your first fresh smoothie is on us!</h2>
+              <p class="cta-text">
+              We are so confident that you will feel an immediate boost from our all-natural smoothies and juices that we will send you one completely free of charge. Remember, they're best consumed fresh!
+              </p>
+
+              <form class="cta-form" name="sign-up" netlify>
+                <div>
+                  <label for="full-name">Full name</label>
+                  <input id="full-name" type="text" placeholder="Abby Person" name="full-name" required/>
+                </div>
+                <div>
+                  <label for="email">Email address</label>
+                  <input id="email" type="email" name="email"
+                  placeholder="me@example.com" required/>
+                </div>
+
+                <div>
+                  <label>How did you hear about us?</label>
+                  <select id="select-where" name="select-where" required>
+                    <option value="">Please choose an option</option>
+                    <option value="friends">Friends or family</option>
+                    <option value="instagram">Instagram ad</option>
+                    <option value="news">Newspaper feature</option>
+                    <option value="podcast">Podcast</option>
+                    <option value="other">Other</option>
+                  </select>
+                </div>
+
+                <button class="btn btn--form">Sign up now</button>
+              </form>
+            </div>
+            <div class="cta-img-box" role="img" aria-label="Avocado toast"></div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container grid grid--footer">
+        <div class="logo-col">
+          <h1 class="logo"><a href="#" class="footer-logo">Honor</a></h1>
+          <ul class="social-links">
+            <li>
+              <a class="footer-link" href="#">
+                <ion-icon class="social-icon" name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+            <li>
+              <ion-icon class="social-icon" name="logo-facebook"></ion-icon>
+            </li>
+            <li>
+              <ion-icon class="social-icon" name="logo-twitter"></ion-icon>
+            </li>
+          </ul>
+          <p class="copyright"> Copyright &copy; 2025 by Honor, Inc. All rights reserved.</p>
+        </div>
+
+        <div class="address-col">
+          <p class="footer-heading">Contact Us</p>
+          <address class="contacts">
+            <p class="address">
+              Address: 431 Sip Avenue, 4th Floor, Jersey City, NJ 07306
+            </p>
+            <br>
+              <a class="footer-link" href="mailto:info@honor.com">info@honor.com</a><br>
+              <a class="footer-link" href="tel:862-222-3753">862-222-3753</a>
+            <br>
+            </p>
+          </address>
+        </div>
+        <nav class="nav-col">
+          <p class="footer-heading">Account</p>
+          <ul class="footer-nav">
+            <li>
+              <a class="footer-link" href="#">Create account</a>
+            </li>
+            <li>
+              <a class="footer-link" href="#">Sign in</a>
+            </li>
+            <li>
+              <a class="footer-link" href="#">iOS app</a>
+            </li>
+            <li>
+              <a class="footer-link" href="#">Android app</a>
+            </li>
+          </ul>
+        </nav>
+        <nav class="nav-col">
+          <p class="footer-heading">Company</p>
+          <ul class="footer-nav">
+            <li>
+              <a class="footer-link" href="#">About Us</a>
+            </li>
+            <li>
+              <a class="footer-link" href="#">For Business</a>
+            </li>
+            <li>
+              <a class="footer-link" href="#">Local partners</a>
+            </li>
+            <li>
+              <a class="footer-link" href="#">Careers</a>
+            </li>
+          </ul>
+        </nav>
+        <nav class="nav-col">
+          <p class="footer-heading">Resources</p>
+          <ul class="footer-nav">
+            <li>
+              <a class="footer-link" href="#">Company directory</a>
+            </li>
+            <li>
+              <a class="footer-link" href="#">Help Center</a>
+            </li>
+            <li>
+              <a class="footer-link" href="#">Privacy</a>
+            </li>
+            <li>
+              <a class="footer-link" href="#">Terms & Conditions</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+  </body>
+</html>
