@@ -31,6 +31,10 @@ body {
   overflow-x: hidden;
 }
 
+section {
+  margin-top: 4.5rem;
+}
+
 /* Mobile Nav */
 .button-mobile-nav {
   border: none;
